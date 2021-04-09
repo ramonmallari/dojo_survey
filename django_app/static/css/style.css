@@ -1,0 +1,9 @@
+.container{
+    width: 500px;
+    text-align:center;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(199, 196, 196);
+}
+

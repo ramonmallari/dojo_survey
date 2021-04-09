@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>New User Information</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'result.css' %}"> 
+    </head>
+    <body>
+        <div class = "results">
+            <h1>Survey Information</h1>
+            <p>First name: {{fname}}</p>
+            <p>Last name: {{lname}}</p>
+            <p>Email address: {{email}}</p>
+            <p>Birthday: {{bday}}</p>
+            <p>Gender: {{gender}}</p>
+            <p>Favorite language: {{lang}}</p>
+            <p>Extra comments: {{com}}</p>
+        </div>
+    </body>
+</html>
