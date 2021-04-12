@@ -5,18 +5,19 @@
         <title>New User Information</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {% load static %}
-        <link rel="stylesheet" href="{% static 'result.css' %}"> 
+        <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
     </head>
     <body>
-        <div class = "results">
+        <div class = "container">
             <h1>Survey Information</h1>
-            <p>First name: {{fname}}</p>
-            <p>Last name: {{lname}}</p>
-            <p>Email address: {{email}}</p>
-            <p>Birthday: {{bday}}</p>
-            <p>Gender: {{gender}}</p>
-            <p>Favorite language: {{lang}}</p>
-            <p>Extra comments: {{com}}</p>
+            <p>First name: {{results.fname}}</p>
+            <p>Last name: {{results.lname}}</p>
+            <p>Email address: {{results.email}}</p>
+            <p>Birthday: {{results.bday}}</p>
+            <p>Gender: {{results.gender}}</p>
+            <p>Favorite language: {{results.lang}}</p>
+            <p>Extra comments: {{results.com}}</p>
+            <a href="/" class="btn btn-primary">Return</a>
         </div>
     </body>
 </html>
